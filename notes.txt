@@ -1,0 +1,3 @@
+what is objcet ?
+  - Object is an entity which is having states (Properties) and bheaviours.
+  - 
