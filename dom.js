@@ -18,6 +18,35 @@
 // let ele =  document.querySelectorAll(".test");
 // console.log(ele);
 
-let  btn  = doucument.querySelector("#btn");
-btn.addEventListener("click",())
+// let ele = document.createElement("h1");
+// ele.innerText  = "Dynamic creation of the html element";
+// ele.id = "demo";
+
+// console.log(ele);
+
+// document.body.appendChild(ele);
+
+let form = document.querySelector("form");
+let username = document.getElementById("uName");
+let mail = document.getElementById("uMail");
+let psw= document.getElementById("uPass");
+
+form.addEventListener("submit",(event)=>{
+    event.preventDefault();
+    let uname = username.value;
+    let uemail = mail.value;
+    let upass = psw.value;
+    let userDetails={
+        uname ,uemail,upass
+    }
+     console.log(userDetails);
+     localStorage.setItem("userData",JSON.stringify(userDetails))
+
+})
+
+
+
+
+
+
 
