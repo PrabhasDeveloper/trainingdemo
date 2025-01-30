@@ -1,0 +1,12 @@
+Take array if the objects ,where each object contains properties such as empid ,empname , empcompany , empsalary,empaddress where empadress further having two more peoperties of objects such as empcity,emparea.T
+hese properties in the form of the table  on the ui by using javascript ,create array of the object  and display ui by javascript 
+
+
+
+create a signup form that contains username(!empty),
+email(@,!empty),
+password(Should be 6) and 
+confirm password(same ,!empty),
+
+once you click on the submit button , a alert should be popped up on screen "form is submitted sucessfully" if and only if all the validations are correct.
+
